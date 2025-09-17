@@ -1,5 +1,7 @@
 # Age Calculator App
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Mon but était de crééer une petite application permettant à chaque utilisateur de calculer son âge. Pour se faire :
@@ -10,7 +12,11 @@ Mon but était de crééer une petite application permettant à chaque utilisate
 
 - La page web est responsive : elle s'adapte parfaitement aux différentes résolutions d'écran (desktop, tablette et mobile);
 
-## Développez avec
+## Démonstration
+
+lien vers le projet : https://aperbet56.github.io/age_calculator/
+
+## Projet développé avec
 
 - Utilisation des balises sémantique HTML5
 - CSS
