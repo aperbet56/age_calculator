@@ -21,10 +21,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #eff0f3;
+    color: #0d0d0d;
 }
 
-header, footer {
+header,
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +34,7 @@ header, footer {
 }
 
 header h1 {
+    text-transform: capitalize;
     text-align: center;
     font-weight: bold;
     font-size: 40px;
@@ -44,10 +47,10 @@ header h1 {
     flex-grow: 1;
 }
 
-.container{
+.container {
     max-width: 600px;
     width: 100%;
-    background-color:#ffffff;
+    background-color: #fffffe;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 8px;
@@ -58,13 +61,13 @@ header h1 {
     flex-direction: column;
     align-items: center;
 }
-  
+
 label {
     font-weight: bold;
     margin-bottom: 10px;
     font-size: 25px;
 }
-  
+
 .date__input {
     padding: 12px;
     border: 1px solid #cccccc;
@@ -73,10 +76,10 @@ label {
     max-width: 300px;
     margin-bottom: 15px;
 }
-  
+
 #btn {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #ff8e3c;
+    color: #fffffe;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
@@ -85,13 +88,13 @@ label {
     border-radius: 5px;
     margin: 10px 0;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
-  
+
 #btn:hover {
-    background-color: #0062cc;
+    opacity: 0.8;
 }
-  
+
 #result {
     margin-top: 10px;
     font-size: 24px;
@@ -105,14 +108,15 @@ footer span {
 }
 
 
-/**** Responsive design ****/ 
+/**** Responsive design ****/
 
 @media screen and (max-width: 472px) {
     .container {
         margin: 0 20px;
     }
 
-    label, #result {
+    label,
+    #result {
         font-size: 20px;
     }
 }
